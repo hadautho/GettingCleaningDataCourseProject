@@ -14,92 +14,92 @@ Displays the process used for generate the data and the final variables in the f
 
 ####Data Columns(88):
 
-* Subject
-* Activity
-* TimeBodyAccelerometer_mean_X
-* TimeBodyAccelerometer_mean_Y
-* TimeBodyAccelerometer_mean_Z
-* TimeBodyAccelerometer_Standard_Deviation_X
-* TimeBodyAccelerometer_Standard_Deviation_Y
-* TimeBodyAccelerometer_Standard_Deviation_Z
-* TimeGravityAccelerometer_mean_X
-* TimeGravityAccelerometer_mean_Y
-* TimeGravityAccelerometer_mean_Z
-* TimeGravityAccelerometer_Standard_Deviation_X
-* TimeGravityAccelerometer_Standard_Deviation_Y
-* TimeGravityAccelerometer_Standard_Deviation_Z
-* TimeBodyAccelerometerJerk_mean_X
-* TimeBodyAccelerometerJerk_mean_Y
-* TimeBodyAccelerometerJerk_mean_Z
-* TimeBodyAccelerometerJerk_Standard_Deviation_X
-* TimeBodyAccelerometerJerk_Standard_Deviation_Y
-* TimeBodyAccelerometerJerk_Standard_Deviation_Z
-* TimeBodyGyroscope_mean_X
-* TimeBodyGyroscope_mean_Y
-* TimeBodyGyroscope_mean_Z
-* TimeBodyGyroscope_Standard_Deviation_X
-* TimeBodyGyroscope_Standard_Deviation_Y
-* TimeBodyGyroscope_Standard_Deviation_Z
-* TimeBodyGyroscopeJerk_mean_X
-* TimeBodyGyroscopeJerk_mean_Y
-* TimeBodyGyroscopeJerk_mean_Z
-* TimeBodyGyroscopeJerk_Standard_Deviation_X
-* TimeBodyGyroscopeJerk_Standard_Deviation_Y
-* TimeBodyGyroscopeJerk_Standard_Deviation_Z
-* TimeBodyAccelerometerMag_mean
-* TimeBodyAccelerometerMag_Standard_Deviation
-* TimeGravityAccelerometerMag_mean
-* TimeGravityAccelerometerMag_Standard_Deviation
-* TimeBodyAccelerometerJerkMag_mean
-* TimeBodyAccelerometerJerkMag_Standard_Deviation
-* TimeBodyGyroscopeMag_mean
-* TimeBodyGyroscopeMag_Standard_Deviation
-* TimeBodyGyroscopeJerkMag_mean
-* TimeBodyGyroscopeJerkMag_Standard_Deviation
-* FrequenceDomainSignalBodyAccelerometer_mean_X
-* FrequenceDomainSignalBodyAccelerometer_mean_Y
-* FrequenceDomainSignalBodyAccelerometer_mean_Z
-* FrequenceDomainSignalBodyAccelerometer_Standard_Deviation_X
-* FrequenceDomainSignalBodyAccelerometer_Standard_Deviation_Y
-* FrequenceDomainSignalBodyAccelerometer_Standard_Deviation_Z
-* FrequenceDomainSignalBodyAccelerometer_meanFreq_X
-* FrequenceDomainSignalBodyAccelerometer_meanFreq_Y
-* FrequenceDomainSignalBodyAccelerometer_meanFreq_Z
-* FrequenceDomainSignalBodyAccelerometerJerk_mean_X
-* FrequenceDomainSignalBodyAccelerometerJerk_mean_Y
-* FrequenceDomainSignalBodyAccelerometerJerk_mean_Z
-* FrequenceDomainSignalBodyAccelerometerJerk_Standard_Deviation_X
-* FrequenceDomainSignalBodyAccelerometerJerk_Standard_Deviation_Y
-* FrequenceDomainSignalBodyAccelerometerJerk_Standard_Deviation_Z
-* FrequenceDomainSignalBodyAccelerometerJerk_meanFreq_X
-* FrequenceDomainSignalBodyAccelerometerJerk_meanFreq_Y
-* FrequenceDomainSignalBodyAccelerometerJerk_meanFreq_Z
-* FrequenceDomainSignalBodyGyroscope_mean_X
-* FrequenceDomainSignalBodyGyroscope_mean_Y
-* FrequenceDomainSignalBodyGyroscope_mean_Z
-* FrequenceDomainSignalBodyGyroscope_Standard_Deviation_X
-* FrequenceDomainSignalBodyGyroscope_Standard_Deviation_Y
-* FrequenceDomainSignalBodyGyroscope_Standard_Deviation_Z
-* FrequenceDomainSignalBodyGyroscope_meanFreq_X
-* FrequenceDomainSignalBodyGyroscope_meanFreq_Y
-* FrequenceDomainSignalBodyGyroscope_meanFreq_Z
-* FrequenceDomainSignalBodyAccelerometerMag_mean
-* FrequenceDomainSignalBodyAccelerometerMag_Standard_Deviation
-* FrequenceDomainSignalBodyAccelerometerMag_meanFreq
-* FrequenceDomainSignalBodyBodyAccelerometerJerkMag_mean
-* FrequenceDomainSignalBodyBodyAccelerometerJerkMag_Standard_Deviation
-* FrequenceDomainSignalBodyBodyAccelerometerJerkMag_meanFreq
-* FrequenceDomainSignalBodyBodyGyroscopeMag_mean
-* FrequenceDomainSignalBodyBodyGyroscopeMag_Standard_Deviation
-* FrequenceDomainSignalBodyBodyGyroscopeMag_meanFreq
-* FrequenceDomainSignalBodyBodyGyroscopeJerkMag_mean
-* FrequenceDomainSignalBodyBodyGyroscopeJerkMag_Standard_Deviation
-* FrequenceDomainSignalBodyBodyGyroscopeJerkMag_meanFreq
-* Angle(TimeBodyAccelerometerMean,gravity)
-* Angle(TimeBodyAccelerometerJerkMean),gravityMean)
-* Angle(TimeBodyGyroscopeMean,gravityMean)
-* Angle(TimeBodyGyroscopeJerkMean,gravityMean)
-* Angle(X,gravityMean)
-* Angle(Y,gravityMean)
-* Angle(Z,gravityMean)
+* Subject - Number from 1 to 30 indicating the subject(user) who used the the disposite to collect the measures 
+* Activity - Set with the activities done by the Subject - (Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing, Laying)
+* TimeBodyAccelerometer_mean_X - Numeric 
+* TimeBodyAccelerometer_mean_Y - Numeric
+* TimeBodyAccelerometer_mean_Z - Numeric
+* TimeBodyAccelerometer_Standard_Deviation_X - Numeric
+* TimeBodyAccelerometer_Standard_Deviation_Y - Numeric
+* TimeBodyAccelerometer_Standard_Deviation_Z - Numeric
+* TimeGravityAccelerometer_mean_X - Numeric
+* TimeGravityAccelerometer_mean_Y - Numeric
+* TimeGravityAccelerometer_mean_Z - Numeric
+* TimeGravityAccelerometer_Standard_Deviation_X - Numeric
+* TimeGravityAccelerometer_Standard_Deviation_Y - Numeric
+* TimeGravityAccelerometer_Standard_Deviation_Z - Numeric
+* TimeBodyAccelerometerJerk_mean_X - Numeric
+* TimeBodyAccelerometerJerk_mean_Y - Numeric
+* TimeBodyAccelerometerJerk_mean_Z - Numeric
+* TimeBodyAccelerometerJerk_Standard_Deviation_X - Numeric
+* TimeBodyAccelerometerJerk_Standard_Deviation_Y - Numeric
+* TimeBodyAccelerometerJerk_Standard_Deviation_Z - Numeric
+* TimeBodyGyroscope_mean_X - Numeric
+* TimeBodyGyroscope_mean_Y - Numeric
+* TimeBodyGyroscope_mean_Z - Numeric
+* TimeBodyGyroscope_Standard_Deviation_X - Numeric
+* TimeBodyGyroscope_Standard_Deviation_Y - Numeric
+* TimeBodyGyroscope_Standard_Deviation_Z - Numeric
+* TimeBodyGyroscopeJerk_mean_X - Numeric
+* TimeBodyGyroscopeJerk_mean_Y - Numeric
+* TimeBodyGyroscopeJerk_mean_Z - Numeric
+* TimeBodyGyroscopeJerk_Standard_Deviation_X - Numeric
+* TimeBodyGyroscopeJerk_Standard_Deviation_Y - Numeric
+* TimeBodyGyroscopeJerk_Standard_Deviation_Z - Numeric
+* TimeBodyAccelerometerMag_mean - Numeric
+* TimeBodyAccelerometerMag_Standard_Deviation - Numeric
+* TimeGravityAccelerometerMag_mean - Numeric
+* TimeGravityAccelerometerMag_Standard_Deviation - Numeric
+* TimeBodyAccelerometerJerkMag_mean - Numeric
+* TimeBodyAccelerometerJerkMag_Standard_Deviation - Numeric
+* TimeBodyGyroscopeMag_mean - Numeric
+* TimeBodyGyroscopeMag_Standard_Deviation - Numeric
+* TimeBodyGyroscopeJerkMag_mean - Numeric
+* TimeBodyGyroscopeJerkMag_Standard_Deviation - Numeric
+* FrequenceDomainSignalBodyAccelerometer_mean_X - Numeric
+* FrequenceDomainSignalBodyAccelerometer_mean_Y - Numeric
+* FrequenceDomainSignalBodyAccelerometer_mean_Z - Numeric
+* FrequenceDomainSignalBodyAccelerometer_Standard_Deviation_X - Numeric
+* FrequenceDomainSignalBodyAccelerometer_Standard_Deviation_Y - Numeric
+* FrequenceDomainSignalBodyAccelerometer_Standard_Deviation_Z - Numeric
+* FrequenceDomainSignalBodyAccelerometer_meanFreq_X - Numeric
+* FrequenceDomainSignalBodyAccelerometer_meanFreq_Y - Numeric
+* FrequenceDomainSignalBodyAccelerometer_meanFreq_Z - Numeric
+* FrequenceDomainSignalBodyAccelerometerJerk_mean_X - Numeric
+* FrequenceDomainSignalBodyAccelerometerJerk_mean_Y - Numeric
+* FrequenceDomainSignalBodyAccelerometerJerk_mean_Z - Numeric
+* FrequenceDomainSignalBodyAccelerometerJerk_Standard_Deviation_X - Numeric
+* FrequenceDomainSignalBodyAccelerometerJerk_Standard_Deviation_Y - Numeric
+* FrequenceDomainSignalBodyAccelerometerJerk_Standard_Deviation_Z - Numeric
+* FrequenceDomainSignalBodyAccelerometerJerk_meanFreq_X - Numeric
+* FrequenceDomainSignalBodyAccelerometerJerk_meanFreq_Y - Numeric
+* FrequenceDomainSignalBodyAccelerometerJerk_meanFreq_Z - Numeric
+* FrequenceDomainSignalBodyGyroscope_mean_X - Numeric
+* FrequenceDomainSignalBodyGyroscope_mean_Y - Numeric
+* FrequenceDomainSignalBodyGyroscope_mean_Z - Numeric
+* FrequenceDomainSignalBodyGyroscope_Standard_Deviation_X - Numeric
+* FrequenceDomainSignalBodyGyroscope_Standard_Deviation_Y - Numeric
+* FrequenceDomainSignalBodyGyroscope_Standard_Deviation_Z - Numeric
+* FrequenceDomainSignalBodyGyroscope_meanFreq_X - Numeric
+* FrequenceDomainSignalBodyGyroscope_meanFreq_Y - Numeric
+* FrequenceDomainSignalBodyGyroscope_meanFreq_Z - Numeric
+* FrequenceDomainSignalBodyAccelerometerMag_mean - Numeric
+* FrequenceDomainSignalBodyAccelerometerMag_Standard_Deviation - Numeric
+* FrequenceDomainSignalBodyAccelerometerMag_meanFreq - Numeric
+* FrequenceDomainSignalBodyBodyAccelerometerJerkMag_mean - Numeric
+* FrequenceDomainSignalBodyBodyAccelerometerJerkMag_Standard_Deviation - Numeric
+* FrequenceDomainSignalBodyBodyAccelerometerJerkMag_meanFreq - Numeric
+* FrequenceDomainSignalBodyBodyGyroscopeMag_mean - Numeric
+* FrequenceDomainSignalBodyBodyGyroscopeMag_Standard_Deviation - Numeric
+* FrequenceDomainSignalBodyBodyGyroscopeMag_meanFreq - Numeric
+* FrequenceDomainSignalBodyBodyGyroscopeJerkMag_mean - Numeric
+* FrequenceDomainSignalBodyBodyGyroscopeJerkMag_Standard_Deviation - Numeric
+* FrequenceDomainSignalBodyBodyGyroscopeJerkMag_meanFreq - Numeric
+* Angle(TimeBodyAccelerometerMean,gravity) - Numeric
+* Angle(TimeBodyAccelerometerJerkMean),gravityMean) - Numeric
+* Angle(TimeBodyGyroscopeMean,gravityMean) - Numeric
+* Angle(TimeBodyGyroscopeJerkMean,gravityMean) - Numeric
+* Angle(X,gravityMean) - Numeric
+* Angle(Y,gravityMean) - Numeric
+* Angle(Z,gravityMean) - Numeric
 
