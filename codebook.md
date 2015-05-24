@@ -7,12 +7,12 @@ Displays the process used for generate the data and the final variables in the f
 1. Load all files (train_x, train_y, test_x, test_y, train_subject, test_subject, activity_labels and features)
 2. Join the data (train and test data of each type - x, y and subject)
 3. Make the data feature names more friendly
-4. Filtering the columns by having the names "Mean" and "Standard_Deviation"
+4. Filtering the columns by the presence of the expressions "Mean" and "Standard_Deviation" in their friendly names (processed in the step 3)
 5. Matching the Activity code wih the Activity Description
 6. Joining the data with the activity and subject columns
 7. Create the tidy data set with the average of each variable for each activity and each subject
 
-####Data Columns(88):
+####Data Columns(88) - Names and Types:
 
 * Subject - Number from 1 to 30 indicating the subject(user) who used the the disposite to collect the measures 
 * Activity - Set with the activities done by the Subject - (Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing, Laying)
@@ -103,3 +103,4 @@ Displays the process used for generate the data and the final variables in the f
 * Angle(Y,gravityMean) - Numeric
 * Angle(Z,gravityMean) - Numeric
 
+All columns except Subject and Activity, comes from the original data, filtered from the 561 columns by the presence of the words "mean" and "std"(Standard Deviation) in their names.
