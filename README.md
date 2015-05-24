@@ -6,4 +6,4 @@
 
 The final result of the script is the tidy dataset called "tidy_data_project.txt"
 
-* Pré-requisite package: plyr
+* Requisite package: plyr
